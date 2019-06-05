@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57DC927122A795BF00D84FEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DC927022A795BF00D84FEA /* AppDelegate.m */; };
+		57DC927422A795BF00D84FEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DC927322A795BF00D84FEA /* ViewController.m */; };
+		57DC927722A795BF00D84FEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57DC927522A795BF00D84FEA /* Main.storyboard */; };
+		57DC927922A795C100D84FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57DC927822A795C100D84FEA /* Assets.xcassets */; };
+		57DC927C22A795C100D84FEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57DC927A22A795C100D84FEA /* LaunchScreen.storyboard */; };
+		57DC927F22A795C100D84FEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DC927E22A795C100D84FEA /* main.m */; };
+		57DC928922A795C200D84FEA /* TDPlayerLiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DC928822A795C200D84FEA /* TDPlayerLiteTests.m */; };
+		57DC929422A795C200D84FEA /* TDPlayerLiteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DC929322A795C200D84FEA /* TDPlayerLiteUITests.m */; };
+		57DC92AA22A795CD00D84FEA /* PlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DC92A222A795CD00D84FEA /* PlayerManager.m */; };
+		57DC92AB22A795CD00D84FEA /* BasePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DC92A522A795CD00D84FEA /* BasePlayer.m */; };
+		57DC92AC22A795CD00D84FEA /* ReAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DC92A722A795CD00D84FEA /* ReAVPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57DC928522A795C200D84FEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57DC926422A795BF00D84FEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57DC926B22A795BF00D84FEA;
+			remoteInfo = TDPlayerLite;
+		};
+		57DC929022A795C200D84FEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57DC926422A795BF00D84FEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57DC926B22A795BF00D84FEA;
+			remoteInfo = TDPlayerLite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57DC926C22A795BF00D84FEA /* TDPlayerLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDPlayerLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57DC926F22A795BF00D84FEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57DC927022A795BF00D84FEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57DC927222A795BF00D84FEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57DC927322A795BF00D84FEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57DC927622A795BF00D84FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57DC927822A795C100D84FEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57DC927B22A795C100D84FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57DC927D22A795C100D84FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57DC927E22A795C100D84FEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57DC928422A795C200D84FEA /* TDPlayerLiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDPlayerLiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57DC928822A795C200D84FEA /* TDPlayerLiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDPlayerLiteTests.m; sourceTree = "<group>"; };
+		57DC928A22A795C200D84FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57DC928F22A795C200D84FEA /* TDPlayerLiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDPlayerLiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57DC929322A795C200D84FEA /* TDPlayerLiteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDPlayerLiteUITests.m; sourceTree = "<group>"; };
+		57DC929522A795C200D84FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57DC92A222A795CD00D84FEA /* PlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerManager.m; sourceTree = "<group>"; };
+		57DC92A422A795CD00D84FEA /* ReAVPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReAVPlayer.h; sourceTree = "<group>"; };
+		57DC92A522A795CD00D84FEA /* BasePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePlayer.m; sourceTree = "<group>"; };
+		57DC92A622A795CD00D84FEA /* BasePlayer_Methods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePlayer_Methods.h; sourceTree = "<group>"; };
+		57DC92A722A795CD00D84FEA /* ReAVPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReAVPlayer.m; sourceTree = "<group>"; };
+		57DC92A822A795CD00D84FEA /* BasePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePlayer.h; sourceTree = "<group>"; };
+		57DC92A922A795CD00D84FEA /* PlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57DC926922A795BF00D84FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57DC928122A795C200D84FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57DC928C22A795C200D84FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57DC926322A795BF00D84FEA = {
+			isa = PBXGroup;
+			children = (
+				57DC926E22A795BF00D84FEA /* TDPlayerLite */,
+				57DC928722A795C200D84FEA /* TDPlayerLiteTests */,
+				57DC929222A795C200D84FEA /* TDPlayerLiteUITests */,
+				57DC926D22A795BF00D84FEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57DC926D22A795BF00D84FEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57DC926C22A795BF00D84FEA /* TDPlayerLite.app */,
+				57DC928422A795C200D84FEA /* TDPlayerLiteTests.xctest */,
+				57DC928F22A795C200D84FEA /* TDPlayerLiteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57DC926E22A795BF00D84FEA /* TDPlayerLite */ = {
+			isa = PBXGroup;
+			children = (
+				57DC926F22A795BF00D84FEA /* AppDelegate.h */,
+				57DC927022A795BF00D84FEA /* AppDelegate.m */,
+				57DC927222A795BF00D84FEA /* ViewController.h */,
+				57DC927322A795BF00D84FEA /* ViewController.m */,
+				57DC92A122A795CD00D84FEA /* PlayerAdapter */,
+				57DC927522A795BF00D84FEA /* Main.storyboard */,
+				57DC927822A795C100D84FEA /* Assets.xcassets */,
+				57DC927A22A795C100D84FEA /* LaunchScreen.storyboard */,
+				57DC927D22A795C100D84FEA /* Info.plist */,
+				57DC927E22A795C100D84FEA /* main.m */,
+			);
+			path = TDPlayerLite;
+			sourceTree = "<group>";
+		};
+		57DC928722A795C200D84FEA /* TDPlayerLiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				57DC928822A795C200D84FEA /* TDPlayerLiteTests.m */,
+				57DC928A22A795C200D84FEA /* Info.plist */,
+			);
+			path = TDPlayerLiteTests;
+			sourceTree = "<group>";
+		};
+		57DC929222A795C200D84FEA /* TDPlayerLiteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57DC929322A795C200D84FEA /* TDPlayerLiteUITests.m */,
+				57DC929522A795C200D84FEA /* Info.plist */,
+			);
+			path = TDPlayerLiteUITests;
+			sourceTree = "<group>";
+		};
+		57DC92A122A795CD00D84FEA /* PlayerAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				57DC92A922A795CD00D84FEA /* PlayerManager.h */,
+				57DC92A222A795CD00D84FEA /* PlayerManager.m */,
+				57DC92A322A795CD00D84FEA /* Players */,
+			);
+			path = PlayerAdapter;
+			sourceTree = "<group>";
+		};
+		57DC92A322A795CD00D84FEA /* Players */ = {
+			isa = PBXGroup;
+			children = (
+				57DC92A622A795CD00D84FEA /* BasePlayer_Methods.h */,
+				57DC92A822A795CD00D84FEA /* BasePlayer.h */,
+				57DC92A522A795CD00D84FEA /* BasePlayer.m */,
+				57DC92A422A795CD00D84FEA /* ReAVPlayer.h */,
+				57DC92A722A795CD00D84FEA /* ReAVPlayer.m */,
+			);
+			path = Players;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57DC926B22A795BF00D84FEA /* TDPlayerLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57DC929822A795C200D84FEA /* Build configuration list for PBXNativeTarget "TDPlayerLite" */;
+			buildPhases = (
+				57DC926822A795BF00D84FEA /* Sources */,
+				57DC926922A795BF00D84FEA /* Frameworks */,
+				57DC926A22A795BF00D84FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDPlayerLite;
+			productName = TDPlayerLite;
+			productReference = 57DC926C22A795BF00D84FEA /* TDPlayerLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57DC928322A795C200D84FEA /* TDPlayerLiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57DC929B22A795C200D84FEA /* Build configuration list for PBXNativeTarget "TDPlayerLiteTests" */;
+			buildPhases = (
+				57DC928022A795C200D84FEA /* Sources */,
+				57DC928122A795C200D84FEA /* Frameworks */,
+				57DC928222A795C200D84FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57DC928622A795C200D84FEA /* PBXTargetDependency */,
+			);
+			name = TDPlayerLiteTests;
+			productName = TDPlayerLiteTests;
+			productReference = 57DC928422A795C200D84FEA /* TDPlayerLiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57DC928E22A795C200D84FEA /* TDPlayerLiteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57DC929E22A795C200D84FEA /* Build configuration list for PBXNativeTarget "TDPlayerLiteUITests" */;
+			buildPhases = (
+				57DC928B22A795C200D84FEA /* Sources */,
+				57DC928C22A795C200D84FEA /* Frameworks */,
+				57DC928D22A795C200D84FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57DC929122A795C200D84FEA /* PBXTargetDependency */,
+			);
+			name = TDPlayerLiteUITests;
+			productName = TDPlayerLiteUITests;
+			productReference = 57DC928F22A795C200D84FEA /* TDPlayerLiteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57DC926422A795BF00D84FEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = TYQ;
+				TargetAttributes = {
+					57DC926B22A795BF00D84FEA = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					57DC928322A795C200D84FEA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 57DC926B22A795BF00D84FEA;
+					};
+					57DC928E22A795C200D84FEA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 57DC926B22A795BF00D84FEA;
+					};
+				};
+			};
+			buildConfigurationList = 57DC926722A795BF00D84FEA /* Build configuration list for PBXProject "TDPlayerLite" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57DC926322A795BF00D84FEA;
+			productRefGroup = 57DC926D22A795BF00D84FEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57DC926B22A795BF00D84FEA /* TDPlayerLite */,
+				57DC928322A795C200D84FEA /* TDPlayerLiteTests */,
+				57DC928E22A795C200D84FEA /* TDPlayerLiteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57DC926A22A795BF00D84FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DC927C22A795C100D84FEA /* LaunchScreen.storyboard in Resources */,
+				57DC927922A795C100D84FEA /* Assets.xcassets in Resources */,
+				57DC927722A795BF00D84FEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57DC928222A795C200D84FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57DC928D22A795C200D84FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57DC926822A795BF00D84FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DC927422A795BF00D84FEA /* ViewController.m in Sources */,
+				57DC927F22A795C100D84FEA /* main.m in Sources */,
+				57DC92AB22A795CD00D84FEA /* BasePlayer.m in Sources */,
+				57DC92AA22A795CD00D84FEA /* PlayerManager.m in Sources */,
+				57DC92AC22A795CD00D84FEA /* ReAVPlayer.m in Sources */,
+				57DC927122A795BF00D84FEA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57DC928022A795C200D84FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DC928922A795C200D84FEA /* TDPlayerLiteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57DC928B22A795C200D84FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DC929422A795C200D84FEA /* TDPlayerLiteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57DC928622A795C200D84FEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57DC926B22A795BF00D84FEA /* TDPlayerLite */;
+			targetProxy = 57DC928522A795C200D84FEA /* PBXContainerItemProxy */;
+		};
+		57DC929122A795C200D84FEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57DC926B22A795BF00D84FEA /* TDPlayerLite */;
+			targetProxy = 57DC929022A795C200D84FEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57DC927522A795BF00D84FEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57DC927622A795BF00D84FEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57DC927A22A795C100D84FEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57DC927B22A795C100D84FEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57DC929622A795C200D84FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57DC929722A795C200D84FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57DC929922A795C200D84FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TDPlayerLite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TYQ.TDPlayerLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57DC929A22A795C200D84FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TDPlayerLite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TYQ.TDPlayerLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57DC929C22A795C200D84FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TDPlayerLiteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TYQ.TDPlayerLiteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDPlayerLite.app/TDPlayerLite";
+			};
+			name = Debug;
+		};
+		57DC929D22A795C200D84FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TDPlayerLiteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TYQ.TDPlayerLiteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDPlayerLite.app/TDPlayerLite";
+			};
+			name = Release;
+		};
+		57DC929F22A795C200D84FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TDPlayerLiteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TYQ.TDPlayerLiteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TDPlayerLite;
+			};
+			name = Debug;
+		};
+		57DC92A022A795C200D84FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TDPlayerLiteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TYQ.TDPlayerLiteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TDPlayerLite;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57DC926722A795BF00D84FEA /* Build configuration list for PBXProject "TDPlayerLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57DC929622A795C200D84FEA /* Debug */,
+				57DC929722A795C200D84FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57DC929822A795C200D84FEA /* Build configuration list for PBXNativeTarget "TDPlayerLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57DC929922A795C200D84FEA /* Debug */,
+				57DC929A22A795C200D84FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57DC929B22A795C200D84FEA /* Build configuration list for PBXNativeTarget "TDPlayerLiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57DC929C22A795C200D84FEA /* Debug */,
+				57DC929D22A795C200D84FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57DC929E22A795C200D84FEA /* Build configuration list for PBXNativeTarget "TDPlayerLiteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57DC929F22A795C200D84FEA /* Debug */,
+				57DC92A022A795C200D84FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57DC926422A795BF00D84FEA /* Project object */;
+}
