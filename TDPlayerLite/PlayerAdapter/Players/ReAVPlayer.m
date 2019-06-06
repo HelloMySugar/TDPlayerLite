@@ -317,8 +317,8 @@
                                                              usingBlock:^(CMTime time)
                             {
                                 NSInteger currentTime = (NSInteger)CMTimeGetSeconds(_playerItem.currentTime);
-                                if (nowPlayedTime != currentTime) {
-                                    nowPlayedTime = currentTime;
+                                if (self->nowPlayedTime != currentTime) {
+                                    self->nowPlayedTime = currentTime;
                                     
                                     //如果还是缓冲状态就结束缓冲
                                     if (weakSelf.isBufferLoading) {
@@ -326,7 +326,7 @@
                                     }
                                     
                                     //保证TD_PLAYER_STATE_PLAYING只被传出一次
-                                    if (!weakSelf.isPlaying && avPlayer.rate) {
+                                    if (!weakSelf.isPlaying && self->avPlayer.rate) {
                                         weakSelf.isPlaying = YES;
                                         [weakSelf updateVideoStateToTheCaller:TD_PLAYER_STATE_PLAYING];
                                     }
@@ -428,7 +428,7 @@
     CMTime changedTime = CMTimeMakeWithSeconds(seekTime, 1);
     [avPlayer seekToTime:changedTime toleranceBefore:kCMTimeZero toleranceAfter:kCMTimeZero completionHandler:^(BOOL finished) {
         [self updateVideoStateToTheCaller:TD_PLAYER_STATE_START_BUFFER];
-        [avPlayer play];
+        [self->avPlayer play];
     }];
 }
 
